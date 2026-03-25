@@ -13,7 +13,7 @@ description: Complete x402 Web3 (eip155) payment signing with EIP-3009. Use when
 
 ### 签名（由商户 skill 委托）
 当商户 skill 下单后用户选择了 eip155 网络支付，会提供：
-- **paymentRequiredBase64** — 第 2.2 步获取的 Base64 编码 payment-required JSON
+- **paymentRequiredBase64** — Base64 编码的 payment-required JSON（由商户 skill 传入）
 - **acceptIndex** — 用户选择的支付方式索引
 
 ### 钱包管理（直接触发）
